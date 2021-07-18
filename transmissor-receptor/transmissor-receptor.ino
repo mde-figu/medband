@@ -4,10 +4,10 @@ RH_ASK driver;
 int pfe=18;
 char msg[10];
 
-
+// Digital 12 reservado para transmissão, DATA do RF433
  
-int led = 13;                // the pin that the LED is atteched to
-int sensor = 3;// the pin that the sensor is atteched to
+int led = 2;                // the pin that the LED is atteched to
+int sensor = 3;              // the pin that the sensor is atteched to
 int sensor2 = 5;
 int state = LOW;             // by default, no motion detected
 int state2 = LOW; 
